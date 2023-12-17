@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Altschool Registration Form</title>
+</head>
+<body>
+    <header>
+        <h1><a href="\index.html" style="color:black; text-decoration: none;">AltSchool Registration Form</a></h1>
+        <p>Fill in your details</p>
+        <hr>
+    </header><br>
+    <main>
+        <form action="#altschool.africa" method="post">
+        <label for="firstname">First Name</label>
+        <input type="text" id="firstname" name="firstname" placeholder="Enter first name" required><br><br>
+
+        <label for="lastname">Last Name</label>
+        <input type="text" id="lastname" name="lastname" placeholder="Enter last name" required><br><br>
+
+        <label for="gender">Gender</label>
+        <select id="gender" name="gender" required>
+            <option disabled selected>Select Gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select><br><br>
+
+        <label for="DOB">Date Of Birth</label>
+        <input type="date" id="DOB" name="DOB" min="1979-12-31" required><br><br>
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="Enter email address" required><br><br>
+
+        <label for="education">Education Level</label>
+        <select id="education" name="education" required>
+            <option disabled selected>Select level of education</option>
+            <option value="bsc">Bsc</option>
+            <option value="msc">Msc</option>
+            <option value="diploma">Diploma</option>
+            <option value="doctorate">Doctorate (PHD)</option>
+            <option value="highschool">High School</option>
+            <option value="Others">Others</option>
+        </select><br><br>
+
+        <label for="country">Country</label>
+        <select id="country" name="country" required>
+            <option disabled selected>Select your country</option>
+            <option value="0">NG</option>
+            <option value="1">GH</option>
+            <option value="2">SA</option>
+            <option value="3">UK</option>
+            <option value="4">US</option>
+            <option value="Others">Others</option>
+        </select><br><br>
+
+        <label for="state">State/City of Residence</label>
+        <input type="text" id="state" name="state" placeholder="Enter state of residence" required><br><br>
+
+        <label for="employment">Employment Status</label>
+        <select id="employment" name="employment" required>
+            <option disabled selected>Select Gender</option>
+            <option value="0">Employed</option>
+            <option value="1">Unemployed</option>
+            <option value="2">Self-Employed</option>
+        </select><br><br>
+
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" placeholder="08154387000" required><br><br>
+
+        <label for="school">Choose School</label>
+        <select id="school" name="school" required>
+            <option disabled selected>Select School</option>
+            <option value="0">School of Engineering</option>
+            <option value="1">School of Data</option>
+            <option value="2">School of Product</option>
+        </select><br><br>
+
+        <label for="course">Choose Course of Study</label>
+        <select id="course" name="course" required>
+            <option disabled selected>Select Course</option>
+            <option value="0">Course 1</option>
+            <option value="1">Course 2</option>
+            <option value="2">Course 3</option>
+        </select><br><br>
+
+        <label for="about">How did you hear about us</label>
+        <select id="about" name="about" required>
+            <option disabled selected>Select Channel</option>
+            <option value="0">twitter</option>
+            <option value="1">facebook</option>
+            <option value="2">instagram</option>
+            <option value="3">linkedin</option>
+            <option value="4">others</option>
+        </select><br><br>
+
+        <label for="code">Scholarship/Discount Code (optional)</label>
+        <input type="text" id="code" name="code" placeholder="Scholarship or student ID or discount code" required><br>
+
+        <p>By clicking continue, I agree to <a href="#">Terms of Use </a>and acknowledge that I have read the <a href="#">Privacy Policy.</a></p><br>
+
+        <input type="submit" value="Create Account">
+        </form>
+    </main>
+</body>
+</html>
